@@ -1,0 +1,244 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+button{
+   cursor: pointer;
+}
+.container{
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__food_box{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.026);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header__select_box{
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.header__select{
+    border: none;
+}
+
+
+
+
+.hero{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero__title{
+    font-weight: 600;
+  font-size: 22px;
+  color: #000;
+  padding-bottom: 5px;
+}
+.hero__text{
+ font-weight: 400;
+ font-size: 12px;
+ color: #00000059;
+}
+.hero__input_box{
+    width: 319px;
+    height: 336px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hero__input{
+    width: 319px;
+  height: 42px;
+ border-radius: 12px;
+ border: 1px solid rgba(0, 0, 0, 0.37);
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.hero__input_again_box{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+   transform: translateY(-30px);
+}
+.hero__other_input_box{
+    width: 243px;
+  height: 42px;
+ border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.37);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 5px;
+}
+.hero__other_input{
+    border: none;
+    font-weight: 400;
+   font-size: 14px;
+   color: #000;
+}
+.hero__summary_box{
+    width: 468px;
+   height: 500px;
+   border: 1px solid rgba(0, 0, 0, 0.305);
+   border-radius: 12px;
+}
+.hero__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__again_title{
+    font-weight: 600;
+  font-size: 22px;
+  color: #000;
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 5px;
+}
+.hero__text_again{
+    font-weight: 400;
+  font-size: 12px;
+  color: #00000042;
+  padding-left: 16px;
+  padding-bottom: 40px;
+}
+.hero__span{
+    font-weight: 500;
+  font-size: 15px;
+  color: #000;
+  padding-left: 132px;
+}
+.hero__again_span{
+    font-weight: 400;
+   font-size: 12px;
+   color: #00000056;
+}
+.hero__start_title_box{
+    font-weight: 400;
+  font-size: 12px;
+  color: #000;
+}
+.hero__farm_box{
+    padding-top: 5px;
+    padding-left: 132px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.hero__img_box{
+    padding-left: 132px;
+    padding-top: 10px;
+}
+.hero__img_plural{
+    padding-top: 20px;
+    padding-left: 132px;
+}
+.hero__img_plural_box{
+    display: flex;
+    align-items: center;
+    gap: 137px;
+    padding-bottom: 40px;
+}
+.hero__span_other{
+    font-weight: 500;
+  font-size: 15px;
+  color: #000;
+  padding-left: 132px;
+ margin-top: 32px;
+}
+
+
+
+
+.billing{
+    padding-top: 100px;
+}
+.billing__title{
+    font-weight: 600;
+ font-size: 22px; 
+ color: #000;
+}
+.billing__text{
+    font-weight: 400;
+ font-size: 12px;
+ color: #00000034;
+ padding-bottom: 32px;
+ padding-top: 5px;
+}
+.billing__input_again_box{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    border: 1px solid rgba(0, 0, 0, 0.237);
+ border-radius: 12px;
+ width: 670px;
+ height: 48px;
+}
+.billing__img_box{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.billing__input{
+    border: none;
+}
+.billing__img{
+    padding-left: 5px;
+}
+.billing__button_box{
+    padding-top: 20px;
+}
+
+
+
+
+.confirmation{
+    padding-top: 50px;
+}
+.confirmation__input_box{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 578px;
+   height: 42px;
+   border: 1px solid rgba(0, 0, 0, 0.212);
+   border-radius: 12px;
+}
+.confirmation__span{
+    font-weight: 400;
+  font-size: 14px;
+}
+.confirmation__img{
+    padding-left: 5px;
+}
+.confirmation__input_again_box{
+    padding-top: 20px;
+    padding-bottom: 43px;
+}
+.confirmation__btn{
+    font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.137);
+  border-radius: 12px;
+  padding: 12px 48px;
+  background-color: olivedrab;
+}
